@@ -11,7 +11,7 @@ module.exports = (env) => {
             filename: 'bundle.js'
         },
         plugins: [new MiniCssExtractPlugin({
-            filename: 'style.css'
+            filename: 'styles.css'
         })],
         module: {
             rules: [{
